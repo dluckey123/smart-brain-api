@@ -6,6 +6,7 @@
   "scripts": {
     "start": "serve -s build"
   },
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
