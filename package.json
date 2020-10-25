@@ -4,8 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "serve -s build",
-    "heroku-postbuild": "npm run build"
+    "start": "nodemon server.js"
   },
 
   "author": "",
@@ -18,7 +17,6 @@
     "express": "^4.17.1",
     "knex": "^0.21.6",
     "nodemon": "^2.0.6",
-    "pg": "^8.4.1",
-    "serve": "^11.3.2"
+    "pg": "^8.4.1"
   }
 }
